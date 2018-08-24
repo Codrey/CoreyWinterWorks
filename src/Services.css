@@ -1,0 +1,100 @@
+.Services {
+    margin: 0 1em;
+    background-color: turquoise;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+    border-bottom-style: ridge;
+    border-bottom-color: pink;
+    border-bottom-left-radius: 33px;
+    border-bottom-right-radius: 33px;
+
+
+    background-image: url(./svg/keyBoardDev.svg), url(./svg/pencil.svg), url(./svg/01.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: cover, cover, 34vh;
+    background-position: 75% 25%, 85% 10%, 123% -9%;
+    background-blend-mode: soft-light, saturation, soft-light;
+    background-attachment: scroll , scroll, fixed;
+}
+
+
+
+.Services h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, white, aquamarine, turquoise, turquoise, turquoise, aquamarine, white),url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…N0eWxlPSdmaWxsOiNlMDg3Mjg7ZmlsdGVyOnVybCgjZmlsdGVyMzExNSknIC8+Cjwvc3ZnPg==);
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.Services h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 48px;
+    margin-top: 0;
+    background: linear-gradient(to bottom, turquoise, white, white, turquoise),url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…N0eWxlPSdmaWxsOiNlMDg3Mjg7ZmlsdGVyOnVybCgjZmlsdGVyMzExNSknIC8+Cjwvc3ZnPg==);
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.Services > .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+
+
+.Services > .row span {
+    background-color: #fff;
+    width: 21ch;
+    height: 23ch;
+    display: inline-block;
+    border-radius: 35%;  
+}
+
+/* .Services > .row span img {
+    background-image: url(./svg/keyBoardDev.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+} */
+
+.Services > .row h4  {
+    margin-top: 8px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 8;
+    color: pink;
+}
+
+.Services > .row p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.Services > .row span i {
+    contain: none;
+}
+
+/* .Services div:first-child {
+    background-image: url(./svg/keyBoardDev.svg);
+    background-repeat: no-repeat;
+    background-size: 70vh;
+    background-position: 5% 33%;
+    background-attachment: fixed;
+
+} */
+
+/* code drop  ---  
+
+
+
+--- code drop  */

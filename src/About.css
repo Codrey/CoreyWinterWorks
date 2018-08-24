@@ -1,0 +1,40 @@
+.about{
+
+    padding: 3rem;
+    background-color: lightslategray;
+    background-blend-mode: darken;
+    background-image: url(./img/coreyatworklit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 21% 87%;
+    border-bottom-right-radius: 33px;
+    border-top-right-radius: 33px;
+    border-right-style: dashed;
+    border-right-color: springgreen;
+    border-width: thin;
+    margin: 1rem 1.5rem 1rem 0em;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.aboutBlurb {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 144px, 2fr ));
+    grid-gap: 1ch;
+
+}
+
+.aboutBlurb h2 {
+    color: pink;
+
+}
+
+.aboutBlurb p {
+    color: white;
+    word-spacing: .3em;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    /* text-shadow: 0 0 3px pink, 0 0 1px turquoise; */
+}

@@ -1,0 +1,53 @@
+.Contact {
+    height: auto;
+    padding-bottom: 120px;
+    text-align: center;
+    border-left-style: groove;
+    border-left-color: springgreen;
+    border-top-style: groove;
+    border-top-color: deepskyblue;
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
+    border-bottom-style: dashed;
+    border-bottom-color: whitesmoke;
+    border-left-width: thin;
+    border-bottom-width: thin;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,192,203,1));
+    margin-left: 1rem;
+}
+
+
+.Contact h2 {
+    margin-top: -1rem;
+    padding-right: 33%;
+    font-size: 3rem;
+    background: linear-gradient(to bottom, pink, white, white, white, turquoise, pink),url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…N0eWxlPSdmaWxsOiNlMDg3Mjg7ZmlsdGVyOnVybCgjZmlsdGVyMzExNSknIC8+Cjwvc3ZnPg==);
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.Contact h3 {
+    text-align: left;
+    padding-left: 21%;
+    background: linear-gradient(to bottom, pink, white, lightgrey, turquoise, white, pink),url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…N0eWxlPSdmaWxsOiNlMDg3Mjg7ZmlsdGVyOnVybCgjZmlsdGVyMzExNSknIC8+Cjwvc3ZnPg==);
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.Contact p {
+    background: linear-gradient(to bottom, black, deepskyblue, deepskyblue, black, deepskyblue, deepskyblue, pink),url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…N0eWxlPSdmaWxsOiNlMDg3Mjg7ZmlsdGVyOnVybCgjZmlsdGVyMzExNSknIC8+Cjwvc3ZnPg==);
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 2ch;
+}
+
+.contactLinks img {
+    height: auto;
+    width: 21ch;
+}

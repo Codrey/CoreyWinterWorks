@@ -1,0 +1,167 @@
+/* header img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position:
+} */
+
+.contHeader {
+    height: 90vh;
+    width: 95vw;
+
+      /*test code*/
+      position: relative;
+      animation-name: HeroSwoop;
+      animation-duration: 1.5s;
+      animation-delay: 1s;
+      animation-fill-mode: both;
+      /*test code*/
+
+}
+
+.innerHeader {
+
+    background: linear-gradient(to top , transparent, white);
+    height: 55vh;
+
+}
+
+header {
+    background-blend-mode: multiply;
+    background-color: white;
+    border-bottom-right-radius: 15ch;
+    background-image: url(./img/notsmiling.png);   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background-position: 50% 21%;
+    background-size: cover;
+    border-width: 3px;
+    border-color: pink;
+    border-bottom-style: ridge;
+    border-width: 3px;
+
+
+}
+
+
+/* head, h1, p {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 500;
+} */
+
+
+header h1 {
+    /* color: turquoise;
+    margin: 1rem;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3rem;
+    margin-top: -1.5rem; */
+
+        /*test code*/
+        color: turquoise;
+        margin: 1rem;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 5rem;
+        margin-top: -1.5rem;
+        /*test code*/
+        width: 100px;
+        /* height: 100px; */
+        position: relative;
+        z-index: 3;
+        animation-name: titleH1;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-fill-mode: both;
+        /*test code*/
+
+}
+
+.innerHeader h2 {
+    color: pink;
+    margin: 1rem;
+    font-family: Helvetica, Arial, san-serif;
+    font-size: 3.5rem;
+    margin-top: -2.5rem;
+
+      /*test code*/
+      width: 100px;
+      /* height: 100px; */
+      position: relative;
+      animation-name: titleH2;
+      animation-duration: 2s;
+      animation-delay: 1s;
+      animation-fill-mode: both;
+      /*test code*/
+}
+
+header p {
+    font-family: monospace, "Lucida Console", Monaco;
+    text-shadow: 0 0 0.3px pink, 0 0 0.3px lightpink;
+    font-size: 1.75rem;
+    color: deepskyblue;
+    padding: 1rem;
+    position: relative;
+    z-index: 2;
+}
+
+header a {
+    background-image: url(./img/sky.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top-style: dotted;
+    border-bottom-style: ridge;
+    background-position: 0px -23em;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: rgb(15, 108, 170);
+    border-color: rgb(68, 191, 240);
+    color: rgb(50, 166, 212);
+    padding: 1.25rem 2.5rem;
+    text-decoration: none;
+    border-radius: 1.11rem;
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+/* Animation */
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes titleH1 {
+    from {left: -15em;}
+    to {left: 0px;}
+}
+
+@keyframes titleH1 {
+    from {left: -15em; }
+    to {left: 0px;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes titleH2 {
+    from {left: -15em;}
+    to {left: 0px;}
+}
+
+@keyframes titleH2 {
+    from {right: -35em; }
+    to {right: 0px;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes HeroSwoop {
+    from {left: -15em;}
+    to {left: 0px;}
+}
+
+@keyframes HeroSwoop {
+    from {top: -55em; }
+    to {top: 0px;}
+}
