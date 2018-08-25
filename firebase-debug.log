@@ -1,24 +1,24 @@
-[debug] [2018-08-25T18:04:00.380Z] ----------------------------------------------------------------------
-[debug] [2018-08-25T18:04:00.383Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
-[debug] [2018-08-25T18:04:00.384Z] CLI Version:   4.2.0
-[debug] [2018-08-25T18:04:00.384Z] Platform:      darwin
-[debug] [2018-08-25T18:04:00.384Z] Node Version:  v8.11.3
-[debug] [2018-08-25T18:04:00.385Z] Time:          Sat Aug 25 2018 19:04:00 GMT+0100 (BST)
-[debug] [2018-08-25T18:04:00.385Z] ----------------------------------------------------------------------
+[debug] [2018-08-25T19:09:39.208Z] ----------------------------------------------------------------------
+[debug] [2018-08-25T19:09:39.212Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-08-25T19:09:39.212Z] CLI Version:   4.2.0
+[debug] [2018-08-25T19:09:39.212Z] Platform:      darwin
+[debug] [2018-08-25T19:09:39.212Z] Node Version:  v8.11.3
+[debug] [2018-08-25T19:09:39.213Z] Time:          Sat Aug 25 2018 20:09:39 GMT+0100 (BST)
+[debug] [2018-08-25T19:09:39.213Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-08-25T18:04:00.453Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-08-25T18:04:00.453Z] > authorizing via signed-in user
-[debug] [2018-08-25T18:04:00.457Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/corey-winter-works  
+[debug] [2018-08-25T19:09:39.224Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-25T19:09:39.224Z] > authorizing via signed-in user
+[debug] [2018-08-25T19:09:39.227Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/corey-winter-works  
  
-[debug] [2018-08-25T18:04:01.241Z] <<< HTTP RESPONSE 200
-[debug] [2018-08-25T18:04:01.242Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/corey-winter-works  
+[debug] [2018-08-25T19:09:39.925Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-25T19:09:39.927Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/corey-winter-works  
  
-[debug] [2018-08-25T18:04:02.365Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-25T19:09:40.973Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from '/Users/corey/Desktop/Codrey/coreywinter-works'...
 [info] 
-[debug] [2018-08-25T18:04:02.367Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/198679785698/clients/_:getWebAppConfig  
+[debug] [2018-08-25T19:09:40.975Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/198679785698/clients/_:getWebAppConfig  
  
-[debug] [2018-08-25T18:04:02.983Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-25T19:09:41.859Z] <<< HTTP RESPONSE 200
 [info] i  hosting[corey-winter-works]: Serving hosting files from: public
 [info] ✔  hosting[corey-winter-works]: Local server: http://localhost:5000
