@@ -75,7 +75,7 @@ header h1 {
         z-index: 3;
         animation-name: titleH1;
         animation-duration: 3s;
-        animation-delay: 1s;
+        animation-delay: .5s;
         animation-fill-mode: both;
         /*test code*/
 
@@ -93,8 +93,8 @@ header h1 {
       /* height: 100px; */
       position: relative;
       animation-name: titleH2;
-      animation-duration: 2s;
-      animation-delay: 1s;
+      animation-duration: 2.3s;
+      animation-delay: 1.3s;
       animation-fill-mode: both;
       /*test code*/
 }
