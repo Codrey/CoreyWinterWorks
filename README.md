@@ -1,3 +1,6 @@
+* Why did Shakespear write in ink? because he couldn't decide which pencil to use... 2B or not 2B.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

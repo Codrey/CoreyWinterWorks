@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+
+
+
 import './index.css';
 import Navigation from './Navigation';
 import Header from './Header';
@@ -8,8 +11,15 @@ import Services from './Services';
 import About from './About';
 import Contact from './Contact';
 
+
+
+
+
+
+
 import registerServiceWorker from './registerServiceWorker';
 
+  //  Firebase
 import firebase from 'firebase';
 
   // Initialize Firebase
@@ -22,11 +32,15 @@ import firebase from 'firebase';
     messagingSenderId: "198679785698"
   };
   firebase.initializeApp(config);
+  //  Firebase
 
 
 
 
 class App extends Component {
+
+    
+
     render() {
         return (
             <div>
