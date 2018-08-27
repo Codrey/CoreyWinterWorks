@@ -1,24 +1,30 @@
-[debug] [2018-08-25T19:09:39.208Z] ----------------------------------------------------------------------
-[debug] [2018-08-25T19:09:39.212Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
-[debug] [2018-08-25T19:09:39.212Z] CLI Version:   4.2.0
-[debug] [2018-08-25T19:09:39.212Z] Platform:      darwin
-[debug] [2018-08-25T19:09:39.212Z] Node Version:  v8.11.3
-[debug] [2018-08-25T19:09:39.213Z] Time:          Sat Aug 25 2018 20:09:39 GMT+0100 (BST)
-[debug] [2018-08-25T19:09:39.213Z] ----------------------------------------------------------------------
+[debug] [2018-08-25T21:03:45.983Z] ----------------------------------------------------------------------
+[debug] [2018-08-25T21:03:46.008Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-08-25T21:03:46.008Z] CLI Version:   4.2.0
+[debug] [2018-08-25T21:03:46.008Z] Platform:      darwin
+[debug] [2018-08-25T21:03:46.008Z] Node Version:  v8.11.3
+[debug] [2018-08-25T21:03:46.009Z] Time:          Sat Aug 25 2018 22:03:46 GMT+0100 (BST)
+[debug] [2018-08-25T21:03:46.009Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-08-25T19:09:39.224Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-08-25T19:09:39.224Z] > authorizing via signed-in user
-[debug] [2018-08-25T19:09:39.227Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/corey-winter-works  
+[debug] [2018-08-25T21:03:46.155Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-25T21:03:46.156Z] > authorizing via signed-in user
+[debug] [2018-08-25T21:03:46.160Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/corey-winter-works  
  
-[debug] [2018-08-25T19:09:39.925Z] <<< HTTP RESPONSE 200
-[debug] [2018-08-25T19:09:39.927Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/corey-winter-works  
- 
-[debug] [2018-08-25T19:09:40.973Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-25T21:03:47.646Z] <<< HTTP RESPONSE 200
 [info] 
-[info] === Serving from '/Users/corey/Desktop/Codrey/coreywinter-works'...
+[info] === Deploying to 'corey-winter-works'...
 [info] 
-[debug] [2018-08-25T19:09:40.975Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/198679785698/clients/_:getWebAppConfig  
- 
-[debug] [2018-08-25T19:09:41.859Z] <<< HTTP RESPONSE 200
-[info] i  hosting[corey-winter-works]: Serving hosting files from: public
-[info] ✔  hosting[corey-winter-works]: Local server: http://localhost:5000
+[info] i  deploying database, hosting
+[debug] [2018-08-25T21:03:47.837Z] Error: ENOENT: no such file or directory, open '/Users/corey/Desktop/Codrey/coreywinter-works/database.rules.json'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.readFileSync (fs.js:551:33)
+    at Config.readProjectFile (/usr/local/lib/node_modules/firebase-tools/lib/config.js:176:22)
+    at /usr/local/lib/node_modules/firebase-tools/lib/deploy/database/prepare.js:52:42
+    at /usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:4925:15
+    at baseForOwn (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:3010:24)
+    at /usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:4894:18
+    at Function.forEach (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:9342:14)
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/deploy/database/prepare.js:49:5)
+    at _chain (/usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:26:38)
+[error] 
+[error] Error: An unexpected error has occurred.
