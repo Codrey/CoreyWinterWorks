@@ -48,7 +48,7 @@
     font-family: sans-serif;
     font-size: 1.2rem;
     border-top-style: solid;
-    color: white;
+    color: darkslategray;
     padding: 1rem;
 }
 
@@ -99,13 +99,6 @@
     border-bottom-style: groove;
     /* background-image: linear-gradient(to bottom right, rgba(255,0,0,0), rgba(255,192,203)); */
 }
-
-/* 
-.works ul a {
-
-
-
-} */
 
 
 .xocaseGrid {

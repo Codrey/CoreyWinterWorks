@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import './Contact.css';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import linkedinLogo from './img/linkedinLogo.png';
 
-   
+
 
 
 
@@ -12,10 +11,10 @@ class Contact extends Component {
         return (
 
 
+ 
 
 
-
-            
+   
         <div id="Contact" className="Contact" >
             <h3>Corey says 'Hi'</h3>
             <h2>Reply ...</h2>
@@ -28,6 +27,9 @@ class Contact extends Component {
                   </a>
                 </div>
             </div>
+
+        
+
         </div>
         
         );

@@ -12,6 +12,8 @@ class Navigation extends Component {
         )
 
     });
+
+
     return (
         <nav id="Home" className="Navigation">
             <div className="logo">
