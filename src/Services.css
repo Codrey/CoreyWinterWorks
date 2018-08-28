@@ -59,13 +59,6 @@
     border-radius: 35%;  
 }
 
-/* .Services > .row span img {
-    background-image: url(./svg/keyBoardDev.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-} */
-
 .Services > .row h4  {
     margin-top: 8px;
     font-family: inherit;
@@ -85,14 +78,6 @@
     contain: none;
 }
 
-/* .Services div:first-child {
-    background-image: url(./svg/keyBoardDev.svg);
-    background-repeat: no-repeat;
-    background-size: 70vh;
-    background-position: 5% 33%;
-    background-attachment: fixed;
-
-} */
 
 /* code drop  ---  
 
